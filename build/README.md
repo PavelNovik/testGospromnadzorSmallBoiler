@@ -1,1 +1,0 @@
-This project was creat for testing people in the industry safetly. The questions are about small boiler. There are about 171 questions in this test.
