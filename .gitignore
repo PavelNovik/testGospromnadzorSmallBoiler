@@ -1,0 +1,15 @@
+node_modules
+.cache
+build
+dist
+.prettierrc
+package-lock.json
+build\index.html
+build\script.4619aae0.js
+build\script.4619aae0.js.map
+build\style.4ca85bc7.css
+build\style.4ca85bc7.css.map
+build\style.fd3518e8.css.map
+build\style.fd3518e8.css
+build\script.1ec57acb.js.map
+build\script.1ec57acb.js
