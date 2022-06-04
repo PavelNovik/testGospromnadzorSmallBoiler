@@ -2,6 +2,7 @@
 
 // Importing const
 import { kotelnQuest } from './koteln.js';
+import { gazQuest } from './gaz.js';
 
 // add music
 const audioMusic = document.querySelector('audio');
