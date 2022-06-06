@@ -1,3 +1,4 @@
+.gitignore
 node_modules
 .cache
 build
@@ -13,3 +14,5 @@ build\style.fd3518e8.css.map
 build\style.fd3518e8.css
 build\script.1ec57acb.js.map
 build\script.1ec57acb.js
+styles\css\*
+css
