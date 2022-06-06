@@ -1,0 +1,46 @@
+.quest__nums {
+    width: 19.6%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 0.7rem 0.1rem;
+    overflow: hidden;
+}
+
+.quest__nums>.num {
+    display: flex;
+    justify-content: center;
+    min-width: 1.4rem;
+    /* width: 1.5rem; */
+    height: 2rem;
+    border: 1px solid gray;
+    /* text-align: center; */
+    padding-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: lightgray;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.current {
+    box-shadow: 0px 0px 0px 2px black;
+}
+
+.quest__nums>.num__true {
+    background-color: lightgreen;
+}
+
+.quest__nums>.num__false {
+    background-color: lightcoral;
+}
+
+.quest__nums>.num:hover {
+    transition: .3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 2px black;
+    /* box-shadow: 1px 1px 10px black; */
+}
