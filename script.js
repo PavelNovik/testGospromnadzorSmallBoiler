@@ -101,7 +101,6 @@ function startTest(questions, i) {
   currentQuestion.textContent = questions[i].questText;
   // имплементация рандомной раздачи ответов на вопрос 01.06.2022
   // let randomQuest = randomiser();
-  // console.log(randomQuest);
 
   // answerOne.textContent = questions[i].answers[randomQuest[0]];
   // answerTwo.textContent = questions[i].answers[randomQuest[1]];
