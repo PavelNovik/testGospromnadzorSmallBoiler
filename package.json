@@ -5,7 +5,9 @@
   "main": "script.js",
   "scripts": {
     "dev": "parcel index.html --open --port 3000",
-    "build": "parcel build index.html --out-dir=build"
+    "build": "parcel build index.html --out-dir=build",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod"
   },
   "keywords": [
     "gosPromNadzor"
@@ -14,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "sass": "^1.52.2"
+    "sass": "^1.52.2",
+    "vercel": "^25.1.0"
   }
 }

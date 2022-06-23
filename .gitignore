@@ -5,6 +5,7 @@ build
 dist
 .prettierrc
 package-lock.json
+build
 build\index.html
 build\script.4619aae0.js
 build\script.4619aae0.js.map
